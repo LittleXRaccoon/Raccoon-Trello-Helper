@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Raccoon Trello Helper — Terms & Privacy</title>
+
+    <meta
+        name="description"
+        content="Terms of Service and Privacy Policy for Raccoon Trello Helper."
+    >
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        :root {
+            --background: #0f1117;
+            --background2: #151923;
+            --card: #1b1f2a;
+            --border: #292f3d;
+            --text: #f1f3f5;
+            --muted: #a9b0bd;
+            --accent: #5865f2;
+            --accent-hover: #4752c4;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family:
+                -apple-system,
+                BlinkMacSystemFont,
+                "Segoe UI",
+                Roboto,
+                Helvetica,
+                Arial,
+                sans-serif;
+
+            background:
+                radial-gradient(
+                    circle at top,
+                    #202642 0%,
+                    var(--background) 45%
+                );
+
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        header {
+            padding: 80px 20px 60px;
+            text-align: center;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .logo {
+            font-size: 70px;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            font-size: 18px;
+        }
+
+        .operator {
+            margin-top: 15px;
+            color: #c8cdd7;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+
+            background: rgba(15, 17, 23, 0.92);
+            backdrop-filter: blur(12px);
+
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav .nav-inner {
+            max-width: 1000px;
+            margin: auto;
+
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+            padding: 12px 20px;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+
+            padding: 9px 16px;
+            border-radius: 8px;
+
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            background: var(--accent);
+        }
+
+        main {
+            max-width: 950px;
+            margin: 50px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+
+            padding: 35px;
+            margin-bottom: 30px;
+
+            box-shadow:
+                0 10px 30px rgba(0, 0, 0, 0.18);
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 21px;
+            margin-top: 28px;
+            margin-bottom: 8px;
+            color: #ffffff;
+        }
+
+        p {
+            margin-bottom: 14px;
+            color: #d6dae2;
+        }
+
+        ul {
+            margin: 10px 0 18px 25px;
+            color: #d6dae2;
+        }
+
+        li {
+            margin-bottom: 7px;
+        }
+
+        .effective {
+            color: var(--muted);
+            font-size: 14px;
+            margin-bottom: 25px;
+        }
+
+        .notice {
+            background: rgba(88, 101, 242, 0.12);
+            border: 1px solid rgba(88, 101, 242, 0.35);
+
+            border-radius: 10px;
+
+            padding: 18px;
+            margin: 20px 0;
+        }
+
+        .contact {
+            background: #202534;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        code {
+            background: #11141c;
+            padding: 3px 7px;
+            border-radius: 5px;
+            color: #c9d0ff;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--muted);
+
+            padding: 40px 20px;
+
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 600px) {
+
+            header {
+                padding: 55px 15px 40px;
+            }
+
+            h1 {
+                font-size: 31px;
+            }
+
+            .logo {
+                font-size: 55px;
+            }
+
+            section {
+                padding: 23px;
+            }
+
+            nav .nav-inner {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">🦝</div>
+
+    <h1>Raccoon Trello Helper</h1>
+
+    <div class="subtitle">
+        Terms of Service & Privacy Policy
+    </div>
+
+    <div class="operator">
+        Operated by <strong>Raccoon Studios</strong>
+    </div>
+
+</header>
+
+
+<nav>
+
+    <div class="nav-inner">
+
+        <a href="#terms">
+            Terms of Service
+        </a>
+
+        <a href="#privacy">
+            Privacy Policy
+        </a>
+
+        <a href="#contact">
+            Contact
+        </a>
+
+    </div>
+
+</nav>
+
+
+<main>
+
+
+<!-- ================================================= -->
+<!-- TERMS OF SERVICE -->
+<!-- ================================================= -->
+
+<section id="terms">
+
+    <h2>📜 Terms of Service</h2>
+
+    <div class="effective">
+        Effective Date: August 28, 2026
+    </div>
+
+
+    <h3>1. Acceptance of Terms</h3>
+
+    <p>
+        By using Raccoon Trello Helper ("the Bot"), you agree
+        to these Terms of Service.
+    </p>
+
+    <p>
+        If you do not agree with these terms, please stop
+        using the Bot.
+    </p>
+
+
+    <h3>2. Description of the Bot</h3>
+
+    <p>
+        Raccoon Trello Helper is a Discord bot operated by
+        Raccoon Studios. The Bot is designed to retrieve,
+        search, and provide information from configured
+        Trello boards and perform various Discord server
+        functions.
+    </p>
+
+    <p>
+        Features may include:
+    </p>
+
+    <ul>
+        <li>Answering questions using Trello information.</li>
+        <li>Searching Trello cards.</li>
+        <li>Displaying requested card information.</li>
+        <li>Providing administrative commands.</li>
+        <li>Sending announcements.</li>
+        <li>Maintaining bot configuration.</li>
+        <li>Recording certain Bot activity.</li>
+    </ul>
+
+
+    <h3>3. Acceptable Use</h3>
+
+    <p>
+        You agree not to use the Bot to:
+    </p>
+
+    <ul>
+        <li>Abuse, harass, threaten, or harm others.</li>
+
+        <li>
+            Attempt to bypass the Bot's permission system.
+        </li>
+
+        <li>
+            Attempt to obtain unauthorized administrative
+            or owner access.
+        </li>
+
+        <li>
+            Exploit bugs or vulnerabilities in the Bot.
+        </li>
+
+        <li>
+            Spam commands or intentionally overload the Bot.
+        </li>
+
+        <li>
+            Use the Bot for unlawful purposes.
+        </li>
+
+        <li>
+            Interfere with the operation of the Bot.
+        </li>
+    </ul>
+
+
+    <h3>4. Administrative Access</h3>
+
+    <p>
+        Certain Bot commands are restricted to authorized
+        administrators and/or the Bot owner.
+    </p>
+
+    <p>
+        Administrative permissions are controlled by
+        Raccoon Studios.
+    </p>
+
+    <p>
+        Raccoon Studios may modify, revoke, restrict, or
+        terminate administrative access at any time.
+    </p>
+
+
+    <h3>5. Server Removal</h3>
+
+    <div class="notice">
+
+        <p>
+            If Raccoon Studios is kicked or banned from a
+            Discord server, Raccoon Trello Helper may also
+            automatically leave that server.
+        </p>
+
+        <p>
+            The Bot may also leave a server if the Operator
+            no longer has the permissions or access required
+            to properly operate the Bot.
+        </p>
+
+    </div>
+
+
+    <h3>6. Third-Party Services</h3>
+
+    <p>
+        The Bot may interact with third-party services,
+        including Discord and Trello.
+    </p>
+
+    <p>
+        Raccoon Studios is not responsible for outages,
+        changes, restrictions, data loss, or other problems
+        caused by third-party services.
+    </p>
+
+
+    <h3>7. Availability</h3>
+
+    <p>
+        Raccoon Studios does not guarantee that the Bot will
+        always be available, accurate, or error-free.
+    </p>
+
+    <p>
+        The Bot may become unavailable due to maintenance,
+        software updates, Discord or Trello outages,
+        hosting problems, bugs, security issues, or other
+        circumstances.
+    </p>
+
+
+    <h3>8. Information Accuracy</h3>
+
+    <p>
+        Information provided by the Bot may originate from
+        configured Trello boards.
+    </p>
+
+    <p>
+        Raccoon Studios does not guarantee that information
+        stored on those boards is complete, accurate,
+        current, or suitable for a particular purpose.
+    </p>
+
+
+    <h3>9. Termination</h3>
+
+    <p>
+        Raccoon Studios may disable the Bot or restrict its
+        functionality at any time.
+    </p>
+
+    <p>
+        Users may stop using the Bot at any time.
+    </p>
+
+
+    <h3>10. Changes to These Terms</h3>
+
+    <p>
+        These Terms of Service may be updated from time to
+        time as the Bot or its services change.
+    </p>
+
+    <p>
+        Continued use of the Bot after changes become
+        effective constitutes acceptance of the updated
+        Terms.
+    </p>
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- PRIVACY POLICY -->
+<!-- ================================================= -->
+
+<section id="privacy">
+
+    <h2>🔒 Privacy Policy</h2>
+
+    <div class="effective">
+        Effective Date: August 28, 2026
+    </div>
+
+
+    <h3>1. Overview</h3>
+
+    <p>
+        This Privacy Policy explains what information
+        Raccoon Trello Helper may collect, access, process,
+        and store when you use the Bot.
+    </p>
+
+
+    <h3>2. Information We May Collect</h3>
+
+    <p>
+        Depending on how you interact with the Bot, we may
+        process the following information.
+    </p>
+
+
+    <h3>Discord Information</h3>
+
+    <ul>
+
+        <li>Discord User ID.</li>
+
+        <li>Discord username or display name.</li>
+
+        <li>Discord server information.</li>
+
+        <li>Discord channel information.</li>
+
+        <li>Messages sent to the Bot.</li>
+
+        <li>Commands sent to the Bot.</li>
+
+        <li>Timestamps associated with Bot activity.</li>
+
+    </ul>
+
+
+    <h3>Trello Information</h3>
+
+    <ul>
+
+        <li>Trello board information.</li>
+
+        <li>Trello lists.</li>
+
+        <li>Trello card names.</li>
+
+        <li>Trello card descriptions.</li>
+
+        <li>Trello labels.</li>
+
+        <li>Trello card URLs.</li>
+
+        <li>
+            Other information made available through the
+            configured Trello API access.
+        </li>
+
+    </ul>
+
+
+    <h3>3. Messages and Questions</h3>
+
+    <p>
+        When you send a message, command, or question to
+        the Bot, the Bot may process the message content to
+        determine what action should be performed or what
+        information should be returned.
+    </p>
+
+    <p>
+        For example, a question sent through the Bot may be
+        compared against information contained within the
+        configured Trello board.
+    </p>
+
+
+    <h3>4. Logs</h3>
+
+    <p>
+        The Bot may maintain logs containing information
+        about Bot activity.
+    </p>
+
+    <p>
+        Logs may include:
+    </p>
+
+    <ul>
+
+        <li>Discord username.</li>
+
+        <li>Discord User ID where applicable.</li>
+
+        <li>Commands used.</li>
+
+        <li>Administrative actions.</li>
+
+        <li>Errors.</li>
+
+        <li>Timestamps.</li>
+
+        <li>Bot status information.</li>
+
+    </ul>
+
+
+    <h3>5. How Information Is Used</h3>
+
+    <p>
+        Information processed by the Bot may be used to:
+    </p>
+
+    <ul>
+
+        <li>Respond to commands.</li>
+
+        <li>Answer questions.</li>
+
+        <li>Search Trello information.</li>
+
+        <li>Provide requested card information.</li>
+
+        <li>Operate administrative functions.</li>
+
+        <li>Maintain and troubleshoot the Bot.</li>
+
+        <li>Detect abuse or unauthorized activity.</li>
+
+        <li>Improve Bot reliability.</li>
+
+        <li>Respond to support and privacy requests.</li>
+
+    </ul>
+
+
+    <h3>6. Data Storage</h3>
+
+    <p>
+        Some information may be stored by the Bot or by
+        infrastructure used to operate the Bot.
+    </p>
+
+    <p>
+        This may include configuration information,
+        operational logs, Discord-related information,
+        questions, and other information required for the
+        Bot's functionality.
+    </p>
+
+
+    <h3>7. Data Sharing</h3>
+
+    <p>
+        Raccoon Studios does not intentionally sell personal
+        information collected through the Bot.
+    </p>
+
+    <p>
+        Information may be processed by third-party services
+        required for the Bot to operate, including Discord,
+        Trello, and hosting or infrastructure providers.
+    </p>
+
+    <p>
+        Information may also be disclosed when reasonably
+        necessary to comply with applicable law, respond to
+        valid legal requests, protect users or the Bot, or
+        investigate security incidents or abuse.
+    </p>
+
+
+    <h3>8. Data Retention</h3>
+
+    <p>
+        Information is retained only for as long as
+        reasonably necessary for the purposes described in
+        this Privacy Policy, unless a longer retention period
+        is required for legal, security, or operational
+        reasons.
+    </p>
+
+
+    <h3>9. Data Deletion Requests</h3>
+
+    <div class="notice">
+
+        <p>
+            You may request deletion of personal information
+            associated with your use of Raccoon Trello Helper.
+        </p>
+
+        <p>
+            Contact <strong>littleraccoonyt</strong> on Discord
+            to submit a deletion request.
+        </p>
+
+        <p>
+            Please provide enough information for us to
+            identify the information associated with your
+            request.
+        </p>
+
+    </div>
+
+    <p>
+        Some information may need to be retained when
+        required for legal, security, fraud-prevention, or
+        legitimate operational purposes.
+    </p>
+
+
+    <h3>10. Security</h3>
+
+    <p>
+        Raccoon Studios takes reasonable measures to protect
+        information processed by the Bot.
+    </p>
+
+    <p>
+        However, no electronic system or internet
+        transmission can be guaranteed to be completely
+        secure.
+    </p>
+
+    <div class="notice">
+
+        <strong>
+            Never send passwords, Discord tokens, Trello
+            tokens, API keys, financial information, or other
+            highly sensitive credentials to the Bot.
+        </strong>
+
+    </div>
+
+
+    <h3>11. Children's Privacy</h3>
+
+    <p>
+        The Bot is not specifically designed to collect
+        personal information from children.
+    </p>
+
+    <p>
+        Users should comply with Discord's applicable age
+        requirements and policies.
+    </p>
+
+
+    <h3>12. Third-Party Services</h3>
+
+    <p>
+        Raccoon Trello Helper relies on third-party services,
+        including Discord and Trello.
+    </p>
+
+    <p>
+        Those services maintain their own terms and privacy
+        practices. Raccoon Studios does not control how
+        those services independently process information.
+    </p>
+
+
+    <h3>13. Changes to This Privacy Policy</h3>
+
+    <p>
+        This Privacy Policy may be updated as the Bot's
+        functionality changes.
+    </p>
+
+
+</section>
+
+
+<!-- ================================================= -->
+<!-- CONTACT -->
+<!-- ================================================= -->
+
+<section id="contact">
+
+    <h2>📬 Contact</h2>
+
+    <p>
+        If you have questions about these Terms of Service,
+        this Privacy Policy, or want to request deletion of
+        your data, contact the Operator.
+    </p>
+
+    <div class="contact">
+
+        <p>
+            <strong>Operator:</strong>
+            Raccoon Studios
+        </p>
+
+        <p>
+            <strong>Discord:</strong>
+            littleraccoonyt
+        </p>
+
+        <p>
+            <strong>Bot:</strong>
+            Raccoon Trello Helper
+        </p>
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    🦝 Raccoon Trello Helper
+
+    <br>
+
+    © 2026 Raccoon Studios
+
+</footer>
+
+
+</body>
+</html>
